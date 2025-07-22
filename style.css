@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(104, 2, 104);
+    text-align: center;
+    line-height: 2.2;
+}
+
+.hero{
+    padding: 20px 10px;
+}
+
+.hero img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.section h2{
+    font-size: 22px;
+}
+
+.hero h2{
+    font-size: 37px;
+}
+
+.accent{
+    color:darkred;
+}
+
+.grid{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.grid div{
+    padding: 15px;
+    border-radius: 40px;
+    background-color:rgb(76, 4, 76);
+    width: 130px;
+}
+
+
+@media (max-width: 768px){
+    body{background-color:brown}
+}
